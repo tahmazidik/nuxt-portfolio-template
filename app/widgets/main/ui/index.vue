@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import {RectangleIcon} from '~/sharded/icons';
-import {ArrowIcon} from '~/sharded/icons';
-import {Image} from '~/sharded/icons';
+import {RectangleIcon} from '~/shared/icons';
+import {ArrowIcon} from '~/shared/icons';
+import {Image} from '~/shared/icons';
 </script>
 
 <template>

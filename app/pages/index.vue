@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import {mainWidget} from '~/widgets/main';
+import HeroSection from "~/widgets/hero/ui/HeroSection.vue";
 </script>
 
 <template>
-  <div>
-    <mainWidget/>
-  </div>
+  <main>
+    <HeroSection />
+  </main>
 </template>
 
 <style scoped lang="scss">
