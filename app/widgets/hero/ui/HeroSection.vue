@@ -50,18 +50,33 @@ import Container from '~/shared/ui/Container.vue';
            <img
                src="/images/banner.jpg"
                alt="Tattoo artist making a tattoo"
-               class="w-full h-[520px] object-cover"
+               class="w-full h-[705px] object-cover"
            />
            <div class="absolute inset-0">
              <Container>
                <div class="flex h-full items-center justify-end">
-                 <div class="bg-black/60 p-6 max-w-md text-right">
+                 <div class="bg-black/60 p-6 max-w-md text-right space-y-4">
                    <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
                      I'm Void Sir.
                    </h1>
+
+                   <p class="text-sm text-gray-200 leading-relaxed">
+                     Tattoos have their own unique power ad magic/ They not only beautify
+                     the body but also the psyche.
+                   </p>
+
+                   <div>
+                     <button class="inline-flex items-center justify-center px-8 py-3 border border-white text-xs tracking-[0.25em] uppercase hover:bg-white hover:text-black transition">
+                       Read more
+                       <span class="ml-2 text-[10px">→</span>
+                     </button>
+                   </div>
                  </div>
                </div>
              </Container>
+             <div class="absolute bottom-6 left-6 text-white/10 text-6xl md:text-8xl font-bold tracking-[0.25em] uppercase pointer-events-none select-none">
+               Tattoo expert
+             </div>
            </div>
   </section>
 </template>
