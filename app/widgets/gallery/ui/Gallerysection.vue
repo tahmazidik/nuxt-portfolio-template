@@ -6,7 +6,7 @@ import Container from '~/shared/ui/Container.vue'
   <section class="bg-[#f9f9f9] py-16">
     <Container>
       <div class="space-y-8">
-        <h2 class="text-lg md:text-xl font-semibold tracking-[0.25em] uppercase text-black">
+        <h2 class="text-sm md:text-xl font-semibold tracking-[0.25em] uppercase text-black">
           Check my<br />
           gallery:
         </h2>
