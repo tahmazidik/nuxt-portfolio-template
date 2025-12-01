@@ -50,13 +50,13 @@ import Container from '~/shared/ui/Container.vue';
            <img
                src="/images/banner.jpg"
                alt="Tattoo artist making a tattoo"
-               class="w-full h-[705px] object-cover"
+               class="w-full h-[800px] object-cover"
            />
            <div class="absolute inset-0">
              <Container>
-               <div class="flex h-full items-center justify-end">
-                 <div class="bg-black/60 p-6 max-w-md text-right space-y-4">
-                   <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
+               <div class="flex h-full items-center justify-end pt-45 md:pt-50">
+                 <div class=" p-6 max-w-md text-right space-y-4">
+                   <h1 class="text-6xl md:text-6xl font-semibold leading-tight">
                      I'm Void Sir.
                    </h1>
 
@@ -68,7 +68,7 @@ import Container from '~/shared/ui/Container.vue';
                    <div>
                      <button class="inline-flex items-center justify-center px-8 py-3 border border-white text-xs tracking-[0.25em] uppercase hover:bg-white hover:text-black transition">
                        Read more
-                       <span class="ml-2 text-[10px">→</span>
+                       <span class="ml-2 text-[20px]">→</span>
                      </button>
                    </div>
                  </div>

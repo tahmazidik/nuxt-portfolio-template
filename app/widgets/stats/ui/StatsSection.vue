@@ -3,7 +3,7 @@ import Container from '~/shared/ui/Container.vue'
 </script>
 
 <template>
-  <section class="bg-white py-16 min-h-[600px] md:min-h-[680px]">
+  <section class="bg-white py-16 min-h-[600px] md:min-h-[800px]">
     <Container>
       <div class="space-y-12">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -62,7 +62,7 @@ import Container from '~/shared/ui/Container.vue'
                 </span>
 
                 <button class="inline-flex items-center gap-2 text-gray-400 hover:text-black transition">
-                  <span class="text-xs">←</span>
+                  <span class="text-xs space-x-1">←</span>
                   <span class="text-xs">→</span>
                 </button>
               </div>
