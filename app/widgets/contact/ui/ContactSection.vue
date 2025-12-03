@@ -48,11 +48,11 @@ const offices = [
 
               <ul class="space-y-2 text-sm">
                 <li class="flex items-center gap-2">
-                  <span class="flex-base">📍</span>
+                  <span class="text-base">📍</span>
                   <p>{{ office.address }}</p>
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="flex-base">📞</span>
+                  <span class="text-base">📞</span>
                   <p>{{ office.phone }}</p>
                 </li>
                 <li class="flex items-center gap-2">
@@ -65,7 +65,7 @@ const offices = [
         </div>
 
         <div>
-          <form class="space-y-8 @submit.prevent py-[130px]">
+          <form class="space-y-8 py-[130px]" @submit.prevent>
             <div>
               <input
                 type="text"

@@ -17,7 +17,7 @@ const articles: Article[] = [
   },
   {
     id: 2,
-    title: 'Top 10 tatto myths & misconceptions',
+    title: 'Top 10 tattoо myths & misconceptions',
     date: 'Feb 17, 2021',
     image: '/images/article2.jpg',
   },
