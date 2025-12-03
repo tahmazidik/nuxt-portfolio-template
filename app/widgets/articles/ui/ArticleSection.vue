@@ -31,7 +31,7 @@ const articles: Article[] = [
 </script>
 
 <template>
-  <section id="articles" class="bg-whitepy-20 md:py-24">
+  <section id="articles" class="bg-white py-20 md:py-24">
     <Container>
       <div class="max-w-6xl mx-auto grid gap-12 md:grid-cols-3 md:gap-16">
         <article
